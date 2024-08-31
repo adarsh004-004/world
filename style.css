@@ -1,0 +1,195 @@
+/* header section*/
+body{
+	color: white;
+	padding:0px;
+	margin:0px;
+	
+
+}
+.banner-bg{
+	width:100%;
+	background-image:url('../images/hero-bg.jpg	');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	padding-bottom:100px;
+	background-attachment:fixed;
+}
+.header-section{
+	width:100%;
+}
+.container{
+	width:90%;
+	margin:0 auto;
+	padding:5px 15px;
+}
+.row{
+	display:flex;
+}
+.header-col-1{
+	width:40%;
+}
+.logo{
+	margin-top:0px;
+	padding-top:0px;
+}
+.logo a{
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+	margin-top:0px;
+	padding-top:0px;
+	font-weight:bold;
+	
+}
+.menu{
+	display:flex;
+	list-style-type:none;
+	justify-content:flex-end;
+}
+.menu li{
+	margin:20px 30px;
+}
+.menu li a {
+	color:white;
+	text-decoration:none;
+}
+.header-col-2{
+	width:60%;
+}
+.logo{
+	color:white;
+	padding:10px 20px;
+}
+/* slider section */
+.slider-section{
+	width:100%;
+	padding:150px 0px;
+}
+.detail-box{
+	text-align:center;
+	padding:10px 150px;
+}
+h1{
+	font-size:50px;
+	margin:0px;
+	margin-bottom:10px;
+	letter-spacing:10px;
+}
+h2{
+	font-size:40px;
+	margin:0px;
+	margin-bottom:10px;
+}
+h3{
+	font-size:30px;
+	margin:0px;
+	margin-bottom:10px;
+}
+p{
+	line-height:25px;
+	margin-bottom:60px;
+}
+.contact{
+	text-decoration:none;
+	color:white;
+	border:1px solid white;
+	margin-top:50px;
+	padding:15px 30px;
+}
+.contact:hover{
+	color:black;
+	background:white;
+}
+
+
+/* Us section*/
+.why-us-section{
+	width:100%;
+	background-image:url('../images/us-bg.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	padding-top:100px;
+	padding-bottom:100px;
+	background-attachment:fixed;
+	text-align:center;
+}
+.us-heading{
+	margin-bottom:10px;
+}
+.us-container{
+	padding-top:25px;
+}
+.row{
+	width:100%;
+}
+.us-col{
+	width:25%;
+}
+h4{
+	font-size:20px;
+	margin:5px 0px;
+}
+.us-detail{
+	margin:0px;
+}
+
+/* Healthy section*/
+.healthy-section{
+	width:100%;
+	background-image:url('../images/healthy-bg.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	padding-top:120px;
+	padding-bottom:100px;
+	background-attachment:fixed;
+	text-align:center;
+}
+
+/* Trainer section*/
+.trainer-section{
+	width:100%;
+	background-image:url('../images/trainer-bg.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	padding-top:120px;
+	padding-bottom:100px;
+	background-attachment:fixed;
+	text-align:center;
+}
+.trainer-row{
+	width:33%;
+}
+.trainer-col{
+	padding:20px 10px;
+	width:33%;
+}
+.name{
+	margin-bottom:15px;
+	font-weight:bold;
+	font-size:20px;
+	text-align:center;
+}
+.img img{
+	border-radius:15px;
+}
+.social{
+	margin:10px 70px;
+	font-size:25px;
+	color:red;
+	background:white;
+	padding:12px 45px;
+	position:relative;
+	top:-35px;
+	border-radius:50px;
+	display:flex;
+	justify-content:space-between;
+	
+	
+}
+.social a {
+	margin:15px 30px;
+}
